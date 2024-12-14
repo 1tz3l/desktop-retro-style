@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#loadingScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    bottom: 0; 
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: left;
+    padding: 2px;
+    position: absolute; 
+    width: 100%;
+}
+
+#p1 {
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+#p2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 10px;
+    margin-left: auto;
+}

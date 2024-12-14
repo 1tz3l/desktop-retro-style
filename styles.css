@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #000000;
 }
 
 .vt323-regular {
@@ -34,7 +34,7 @@ section {
 
 footer {
     bottom: 0; 
-    color: white;
+    color: #ffffff;
     display: flex;
     font-size: 20px;
     justify-content: left;
@@ -56,4 +56,42 @@ footer {
     margin: 5px;
     padding: 10px;
     margin-left: auto;
+}
+
+#loginScreen {
+    display: none;
+    background-image: url("images/3_login_screen/stars.gif");
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100vw; 
+}
+
+#profileImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; 
+    height: 140px; 
+    background-color: #171a1f; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    box-shadow: 0 0 8px #ffffff; 
+    margin: auto;
+    margin-top: 105px;
+    padding: 4px;
+}
+
+.profileImage img {
+    object-fit: cover;
+}
+
+#p3 {
+    color: #ffffff;
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
 }

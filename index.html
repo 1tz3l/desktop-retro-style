@@ -28,7 +28,7 @@
     </div>
     <div id="loginScreen" style="display: none;">
         <main>
-            <section>
+            <section id="profileSection">
                 <div id="profileImage">
                     <img src="images/3_login_screen/mario-bros-star-star-arcade.gif" alt="" width="200" height="100">
                 </div>
@@ -36,6 +36,27 @@
             </section>
         </main>
     </div>
-
+    <div id="desktopScreen" style="display: none;">
+        <div class="icon" onclick="openWindow('window1')">About Me</div>
+        <div class="icon" onclick="openWindow('window2')">My games</div>
+    </div>
+    <div id="window1" class="window">
+        <div class="window-header">
+            <span>About Me</span>
+            <button onclick="closeWindow('window1')">X</button>
+        </div>
+        <div class="window-content">
+            <p>(｡◕‿‿◕｡)</p>
+        </div>
+    </div>
+    <div id="window2" class="window">
+        <div class="window-header">
+            <span>My games</span>
+            <button onclick="closeWindow('window2')">X</button>
+        </div>
+        <div class="window-content">
+            <p>✧*Where my past meets my future*✧</p>
+        </div>
+    </div>
 </body>
 </html>

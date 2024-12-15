@@ -19,9 +19,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function openWindow(windowId) {
-    document.getElementById(windowId).style.display = 'block';
+    const windows = document.querySelectorAll('.window');
+    windows.forEach(window => {
+        window.style.display = 'none';
+    });
+    const windowToOpen = document.getElementById(windowId);
+    if (windowToOpen) {
+        windowToOpen.style.display = 'block';
+    }
 }
 
 function closeWindow(windowId) {
-    document.getElementById(windowId).style.display = 'none';
+    const windowToClose = document.getElementById(windowId);
+    if (windowToClose) {
+        windowToClose.style.display = 'none';
+    }
 }

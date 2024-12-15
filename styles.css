@@ -171,12 +171,12 @@ footer {
     display: none;
     position: absolute;
     top: 50px;
-    left: 50px;
-    width: 300px;
-    height: 200px;
+    left: 300px;
+    width: 750px;
+    height: 450px;
     background-color: #ffffff;
-    border: 2px solid #efb034;
-    box-shadow: 5px 5px 0 #556cc9;
+    border: 4px solid #efb034;
+    box-shadow: 8px 8px 0 #556cc9;
 }
 
 .window-header {
@@ -197,9 +197,9 @@ footer {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 35px;
 }
 
 .window-content p {
-    font-size: 12px;
+    font-size: 25px;
 }

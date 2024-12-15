@@ -178,6 +178,20 @@ footer {
     color: #171a1f; 
 }
 
+#menuBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 43px;
+    left: 1.5px;
+    width: 95%;
+    height: 30px;
+    background-color: #556cc9;
+    border: 2px solid #86e9fe;
+    padding: 0 10px;
+}
+
 .window {
     display: none;
     position: absolute;

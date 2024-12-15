@@ -190,7 +190,9 @@ footer {
 
 .window-content {
     padding: 10px;
-    width: fit-content;
+    box-sizing: border-box; 
+    height: calc(100% - 40px); 
+    overflow-y: auto; 
 }
 
 .window-content h4 {
@@ -202,4 +204,42 @@ footer {
 
 .window-content p {
     font-size: 25px;
+}
+
+#window2 .window-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    height: calc(100% - 40px); 
+}
+
+#window2 .scroll-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%;
+    height: 100%; 
+    overflow-y: auto; 
+}
+
+#window2 .image-group, #window2 .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#window2 .image-group img, #window2 .image-container img {
+    max-width: 100px; 
+    margin-bottom: 5px;
+}
+
+#window2 .image-group p, #window2 .image-container p {
+    font-size: 20px; 
+    text-align: center;
 }

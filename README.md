@@ -30,4 +30,4 @@ Once you have completed these steps, you can open the project in Visual Studio C
     - ![Zenigame](https://web.archive.org/web/20090903081147/http://geocities.com/pokemonlkc2001/zen01a.gif)
 - **Games**:
     - ![Game 1](https://i.pinimg.com/originals/c2/53/fd/c253fd9fb4cf230b8b53cdb8cc323805.gif)
-    - ![Game 2](https://steamuserimages-a.akamaihd.net/ugc/200
+    - ![Game 2](https://steamuserimages-a.akamaihd.net/ugc/2009216473040801719/379512E19FCD587EA62ADF79AF61BF23C5E2B7FD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)

@@ -1,7 +1,4 @@
 # Me OS: Where early versions of my interests can coexist with the new ones.
-A project inspired by classic desktop interfaces, bringing a nostalgic retro design to modern systems.
-
-## Inspiration
 This project is inspired by the first Windows XP computer that I used, aiming to bring a nostalgic retro design to modern systems.
 
 ## Getting Started
